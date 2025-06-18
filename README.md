@@ -77,7 +77,7 @@ Want a live preview? Deploy it on GitHub Pages:
 
     Select branch: main, folder: /root
 
-    Access via https://soha.github.io/weather-app
+    Access via[ https://soha.github.io/weather-app](https://soha288.github.io/PRODIGY_WD_05-WEATHER-APP/)
 💡 Author
 
 Made with 💙 by Soha!
