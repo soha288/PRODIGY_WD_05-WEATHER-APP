@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat",sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 2rem;
+}
+
+.theme-toggle {
+  font-size: 1.8rem;
+  cursor: pointer;
+  transition: transform 0.5s ease;
+}
+
+.container.dark {
+  background: rgba(0, 0, 0, 0.4);
+  color: #f2f2f2;
+}
+
+body.dark-mode {
+  background: linear-gradient(135deg, #2c3e50, #4ca1af);
+}
+
+
+.container {
+  
+  background-color: #7ddde4;
+  border-radius: 20px;
+  padding: 30px;
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.search-box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search-box input {
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+}
+
+.search-box button {
+  padding: 10px;
+  font-size: 1rem;
+  background-color: #ffffff;
+  color: #333;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.search-box button:hover {
+  background-color: #f1f1f1;
+}
+
+.weather-info {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.weather-info img {
+  width: 80px;
+  height: 80px;
+  margin: 10px 0;
+}
